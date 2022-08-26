@@ -6,7 +6,7 @@ import { Stack } from "@mui/system";
 export default function Comp() {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "component",
-    id: nanoid(),
+
     item: { component: Stack },
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging(),
