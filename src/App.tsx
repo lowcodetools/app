@@ -6,7 +6,7 @@ import Editor from "./component/editor";
 
 function App() {
   return (
-    <div className=''>
+    <div>
       <Editor />
     </div>
   );
